@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>复利工程｜学习之路</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-name">学习之路</div>
+    <nav aria-label="主要导航">
+      <a href="index.html">首页</a>
+      <a href="daily.html">每日学习</a>
+      <a href="compound.html" aria-current="page">复利工程</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>复利工程</h1>
+    <p>复利工程用于保存学习过程中可以重复使用的提示词、模板和方法，方便以后查找、复制和再次使用。</p>
+
+    <section id="compound-list" aria-labelledby="compound-list-title">
+      <h2 id="compound-list-title">复利内容列表</h2>
+
+      <article>
+        <h3>网站需求梳理提示词</h3>
+        <p><strong>类型：</strong>提示词</p>
+        <p>当我想做一个网站但还不清楚结构时，用这个提示词让 AI 先帮我梳理需求，而不是直接写代码。</p>
+        <a href="#prompt-website-requirements">查看详情</a>
+      </article>
+
+      <article>
+        <h3>每日学习记录模板</h3>
+        <p><strong>类型：</strong>模板</p>
+        <p>每天学习结束后，用统一格式记录学习过程，方便后续复盘和网站更新。</p>
+        <a href="#template-daily-study">查看详情</a>
+      </article>
+
+      <article>
+        <h3>第一版开发范围控制方法</h3>
+        <p><strong>类型：</strong>方法</p>
+        <p>在使用 AI 编程时，防止一开始做得太大、太复杂，导致项目无法完成。</p>
+        <a href="#method-mvp-scope">查看详情</a>
+      </article>
+    </section>
+
+    <article id="prompt-website-requirements" aria-labelledby="prompt-website-requirements-title">
+      <h2 id="prompt-website-requirements-title">网站需求梳理提示词</h2>
+      <p><strong>类型：</strong>提示词</p>
+      <p><strong>一句话用途：</strong>当我想做一个网站但还不清楚结构时，用这个提示词让 AI 先帮我梳理需求，而不是直接写代码。</p>
+
+      <section aria-labelledby="prompt-scenes-title">
+        <h3 id="prompt-scenes-title">适用场景</h3>
+        <ul>
+          <li>准备做一个新网站</li>
+          <li>需求还比较模糊</li>
+          <li>不知道页面应该包含什么</li>
+          <li>想先明确 MVP 范围</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="prompt-content-title">
+        <h3 id="prompt-content-title">完整正文</h3>
+        <div class="reusable-content">
+          <p>我想做一个网站，请你先不要写代码，而是先帮我梳理需求。</p>
+          <p>请你依次帮我明确：</p>
+          <ol>
+            <li>网站目标</li>
+            <li>目标用户</li>
+            <li>核心页面</li>
+            <li>每个页面的内容模块</li>
+            <li>用户浏览路径</li>
+            <li>第一版必须做的功能</li>
+            <li>第一版暂时不做的功能</li>
+            <li>后续可以迭代的方向</li>
+          </ol>
+          <p>要求：</p>
+          <ul>
+            <li>用小白能听懂的语言解释</li>
+            <li>不要一开始就写代码</li>
+            <li>先帮我做计划和结构</li>
+            <li>如果我的需求不清楚，请先向我提问</li>
+          </ul>
+        </div>
+      </section>
+
+      <section aria-labelledby="prompt-instructions-title">
+        <h3 id="prompt-instructions-title">使用说明</h3>
+        <p>把这段提示词发给 AI，然后补充你想做的网站主题。先确认 AI 给出的结构合理，再进入代码阶段。</p>
+      </section>
+
+      <p><strong>更新时间：</strong><time datetime="2026-07-11">2026 年 7 月 11 日</time></p>
+      <p><a href="#compound-list">返回复利内容列表</a></p>
+    </article>
+
+    <article id="template-daily-study" aria-labelledby="template-daily-study-title">
+      <h2 id="template-daily-study-title">每日学习记录模板</h2>
+      <p><strong>类型：</strong>模板</p>
+      <p><strong>一句话用途：</strong>每天学习结束后，用统一格式记录学习过程，方便后续复盘和网站更新。</p>
+
+      <section aria-labelledby="template-scenes-title">
+        <h3 id="template-scenes-title">适用场景</h3>
+        <ul>
+          <li>每日 AI 学习打卡</li>
+          <li>项目学习记录</li>
+          <li>课程学习总结</li>
+          <li>周度复盘前的素材积累</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="template-content-title">
+        <h3 id="template-content-title">完整正文</h3>
+        <div class="reusable-content">
+          <p><strong># 第 X 天学习记录</strong></p>
+          <p><strong>## 今日学习主题</strong></p>
+          <p><strong>## 今日目标</strong></p>
+          <p><strong>## 今日完成内容</strong></p>
+          <p><strong>## 今日最重要的三个收获</strong></p>
+          <p><strong>### 1.</strong></p>
+          <p><strong>### 2.</strong></p>
+          <p><strong>### 3.</strong></p>
+          <p><strong>## 今日留下的成果</strong></p>
+          <p><strong>## 当前需要注意的问题</strong></p>
+          <p><strong>## 下一步行动</strong></p>
+        </div>
+      </section>
+
+      <section aria-labelledby="template-instructions-title">
+        <h3 id="template-instructions-title">填写说明</h3>
+        <p>每天不用写很多，但要写清楚三件事：</p>
+        <ol>
+          <li>今天做了什么</li>
+          <li>今天学到了什么</li>
+          <li>明天继续做什么</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="template-example-title">
+        <h3 id="template-example-title">简单示例</h3>
+        <p><strong>今日学习主题：</strong>规划学习之路网站。</p>
+        <p><strong>今日目标：</strong>明确网站页面范围和第一版 MVP。</p>
+        <p><strong>今日完成内容：</strong>完成 PRD、技术设计和基础文件结构。</p>
+        <p><strong>下一步行动：</strong>完成首页内容结构。</p>
+      </section>
+
+      <p><strong>更新时间：</strong><time datetime="2026-07-11">2026 年 7 月 11 日</time></p>
+      <p><a href="#compound-list">返回复利内容列表</a></p>
+    </article>
+
+    <article id="method-mvp-scope" aria-labelledby="method-mvp-scope-title">
+      <h2 id="method-mvp-scope-title">第一版开发范围控制方法</h2>
+      <p><strong>类型：</strong>方法</p>
+      <p><strong>一句话用途：</strong>在使用 AI 编程时，防止一开始做得太大、太复杂，导致项目无法完成。</p>
+
+      <section aria-labelledby="method-scenes-title">
+        <h3 id="method-scenes-title">适用场景</h3>
+        <ul>
+          <li>准备开始一个 AI 编程项目</li>
+          <li>项目需求越来越大</li>
+          <li>Codex 主动添加很多功能</li>
+          <li>不知道哪些功能应该进入第一版</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="method-content-title">
+        <h3 id="method-content-title">完整正文</h3>
+        <div class="reusable-content">
+          <p>第一版项目只保留最核心的浏览流程。</p>
+          <p>判断一个功能是否进入第一版，可以问三个问题：</p>
+          <ol>
+            <li>没有这个功能，网站还能不能表达核心价值？</li>
+            <li>做这个功能会不会明显增加开发复杂度？</li>
+            <li>这个功能是不是可以等内容更多之后再加？</li>
+          </ol>
+          <p>如果答案是：</p>
+          <ul>
+            <li>不影响核心价值</li>
+            <li>会增加复杂度</li>
+            <li>可以以后再做</li>
+          </ul>
+          <p>那这个功能就暂时不进入第一版。</p>
+
+          <h4>现在开发的标准</h4>
+          <ul>
+            <li>页面能打开</li>
+            <li>内容能看懂</li>
+            <li>导航能点击</li>
+            <li>手机端不混乱</li>
+            <li>后续容易修改</li>
+          </ul>
+
+          <h4>以后开发的标准</h4>
+          <ul>
+            <li>内容已经变多</li>
+            <li>手动维护开始困难</li>
+            <li>用户真的需要</li>
+            <li>不做会明显影响使用体验</li>
+          </ul>
+        </div>
+      </section>
+
+      <section aria-labelledby="method-example-title">
+        <h3 id="method-example-title">简单示例</h3>
+        <p>搜索功能很有用，但第一版只有一篇学习记录和三条复利内容，所以不需要搜索。等内容明显增加后，再考虑加入搜索。</p>
+      </section>
+
+      <p><strong>更新时间：</strong><time datetime="2026-07-11">2026 年 7 月 11 日</time></p>
+      <p><a href="#compound-list">返回复利内容列表</a></p>
+    </article>
+
+    <p><a href="index.html">返回首页</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <p>学习之路 · Aeve</p>
+  </footer>
+</body>
+</html>
