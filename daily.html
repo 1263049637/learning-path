@@ -24,6 +24,12 @@
     <section id="daily-list" aria-labelledby="daily-list-title">
       <h2 id="daily-list-title">学习记录列表</h2>
       <article>
+        <h3>完成第一个 Codex Skill 的设计与测试</h3>
+        <p><time datetime="2026-07-24">2026 年 7 月 24 日</time></p>
+        <p>完成学习记录更新与发布 Skill 的流程设计、核心文件创建、静态校验，以及正向、反向、缺失输入和模拟修改计划测试。</p>
+        <a href="#day-3">查看完整记录</a>
+      </article>
+      <article>
         <h3>完成“学习之路”第一版并部署上线</h3>
         <p><time datetime="2026-07-19">2026 年 7 月 19 日</time></p>
         <p>完成网站三页开发、全站样式、MVP 验收、GitHub 仓库上传和 GitHub Pages 部署。</p>
@@ -189,6 +195,80 @@
           <li>验证 GitHub Pages 是否自动更新。</li>
           <li>整理“本地修改—提交 GitHub—线上更新”的维护流程。</li>
           <li>在真实重复任务中继续寻找适合 Skill 化的流程。</li>
+        </ol>
+      </section>
+
+      <p><a href="#daily-list">返回学习记录列表</a></p>
+      <p><a href="index.html">返回首页</a></p>
+    </article>
+
+    <article id="day-3" aria-labelledby="day-3-title">
+      <header>
+        <h2 id="day-3-title">完成第一个 Codex Skill 的设计与测试</h2>
+        <p><strong>日期：</strong><time datetime="2026-07-24">2026 年 7 月 24 日</time></p>
+        <p><strong>学习主题：</strong>把真实重复流程整理成可复用 Skill，并验证其触发和边界。</p>
+      </header>
+
+      <section aria-labelledby="day-3-goal-title">
+        <h3 id="day-3-goal-title">今日目标</h3>
+        <p>理解 Skill 的结构、触发条件、输入要求、停止条件和验收方法。</p>
+      </section>
+
+      <section aria-labelledby="day-3-completed-title">
+        <h3 id="day-3-completed-title">今日完成内容</h3>
+        <ol>
+          <li>梳理学习记录更新与发布流程。</li>
+          <li>明确 Skill 的适用和不适用场景。</li>
+          <li>确定必需输入、用户确认点和安全边界。</li>
+          <li>创建 <code>SKILL.md</code> 和 <code>agents/openai.yaml</code>。</li>
+          <li>完成静态格式校验和只读审查。</li>
+          <li>根据审查结果完成三处最小修正。</li>
+          <li>完成第一次正向触发测试。</li>
+          <li>完成第一次反向触发测试。</li>
+          <li>完成缺失输入测试。</li>
+          <li>完成模拟修改计划测试。</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="day-3-learnings-title">
+        <h3 id="day-3-learnings-title">今日最重要的三个收获</h3>
+        <ol>
+          <li>
+            <h4>Skill 不是一次性提示词，而是有触发条件、流程和边界的可复用方法。</h4>
+          </li>
+          <li>
+            <h4>description 会影响 Skill 是否被正确识别和调用。</h4>
+          </li>
+          <li>
+            <h4>一个可靠的 Skill 不仅要会执行，也要会退出和等待真实信息。</h4>
+          </li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="day-3-results-title">
+        <h3 id="day-3-results-title">今日留下的成果</h3>
+        <ul>
+          <li><code>learning-record-update-publish/SKILL.md</code></li>
+          <li><code>learning-record-update-publish/agents/openai.yaml</code></li>
+          <li>正向、反向、缺失输入和模拟修改计划测试结果</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="day-3-notes-title">
+        <h3 id="day-3-notes-title">当前需要注意的问题</h3>
+        <ul>
+          <li>Skill 尚未完成首页更新、GitHub 提交指导和线上验收测试。</li>
+          <li>当前这次 <code>daily.html</code> 修改本身也需要完成验收后，才能进入下一阶段。</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="day-3-next-title">
+        <h3 id="day-3-next-title">下一步行动</h3>
+        <ol>
+          <li>验收 <code>daily.html</code> 的真实修改结果。</li>
+          <li>验收通过后，单独更新 <code>index.html</code>。</li>
+          <li>完成 GitHub 提交指导和线上验收。</li>
+          <li>根据完整真实执行结果迭代 Skill。</li>
         </ol>
       </section>
 
